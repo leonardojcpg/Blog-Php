@@ -6,12 +6,12 @@ include_once("templates/header.php")
 
 <main>
     <div>
-        <h1>Blog</h1>
+        <h1>Coder Blog</h1>
         <p>O seu blog de programação</p>
     </div>
-    <div id="posts-container">
+    <div id="post-container">
         <?php foreach ($posts as $post) : ?>
-            <div class="posts-box">
+            <div class="post-box">
                 <img src="<?= $BASE_URL ?>/assets/<?= $post['img'] ?>" alt="<?= $post['title'] ?>">
                 <h2 class="post-title">
                     <a href="<?= $BASE_URL ?>/post.php?id=<?= $post['id'] ?>"><?= $post['title'] ?></a>
@@ -26,7 +26,6 @@ include_once("templates/header.php")
                     <?php endforeach; ?>
                 </div>
             </div>
-
         <?php endforeach; ?>
     </div>
 </main>
