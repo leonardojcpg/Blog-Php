@@ -22,7 +22,6 @@ include_once("templates/header.php")
                 <?php foreach ($post['tags'] as $tag) : ?>
                 <a href="#"><?= $tag ?></a>
 
-
                 <?php endforeach; ?>
             </div>
         </div>
