@@ -22,30 +22,42 @@ if (isset($_GET['id'])) {
         <div class="img-container">
             <img src="<?= $BASE_URL ?>/assets/<?= $currentPost['img'] ?>" alt="<?= $currentPost['title'] ?>">
         </div>
-        <p class="post-page-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, accusantium.
-            Voluptatibus
-            hic, nihil voluptate itaque impedit, commodi doloremque laboriosam cupiditate expedita minima rem quaerat
-            dolor, repudiandae laudantium doloribus quasi? Modi?
-            Libero voluptatem ipsum iure id porro repellendus sint voluptate itaque earum at dolores minima, ipsam enim
-            alias natus, expedita odio rem fugiat pariatur accusamus? Ipsa ad a consequuntur sapiente necessitatibus?
-            Facilis ipsum cum minus quo, corporis, ratione eaque, non quibusdam libero fugiat ullam a qui aliquid vel?
-            Velit amet suscipit consectetur consequatur quaerat unde saepe illum. Molestiae aperiam illo ab.
-            Repellendus quae modi omnis eos. Iste quos cum nihil harum magnam qui dicta a unde! Sit sunt quaerat,
-            molestias veniam delectus ipsa eum consequatur inventore obcaecati consectetur iusto in labore.
-            Ullam dolore modi hic illo ad iure architecto! Rem magni vero quasi expedita laudantium assumenda sunt ex ea
-            eveniet debitis. Porro id necessitatibus aliquid ad dolorum suscipit quas minima ipsa.</p>
-        <p class="post-page-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, accusantium.
-            Voluptatibus
-            hic, nihil voluptate itaque impedit, commodi doloremque laboriosam cupiditate expedita minima rem quaerat
-            dolor, repudiandae laudantium doloribus quasi? Modi?
-            Libero voluptatem ipsum iure id porro repellendus sint voluptate itaque earum at dolores minima, ipsam enim
-            alias natus, expedita odio rem fugiat pariatur accusamus? Ipsa ad a consequuntur sapiente necessitatibus?
-            Facilis ipsum cum minus quo, corporis, ratione eaque, non quibusdam libero fugiat ullam a qui aliquid vel?
-            Velit amet suscipit consectetur consequatur quaerat unde saepe illum. Molestiae aperiam illo ab.
-            Repellendus quae modi omnis eos. Iste quos cum nihil harum magnam qui dicta a unde! Sit sunt quaerat,
-            molestias veniam delectus ipsa eum consequatur inventore obcaecati consectetur iusto in labore.
-            Ullam dolore modi hic illo ad iure architecto! Rem magni vero quasi expedita laudantium assumenda sunt ex ea
-            eveniet debitis. Porro id necessitatibus aliquid ad dolorum suscipit quas minima ipsa.</p>
+        <div class="post-page-content">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, accusantium.
+                Voluptatibus
+                hic, nihil voluptate itaque impedit, commodi doloremque laboriosam cupiditate expedita minima rem
+                quaerat
+                dolor, repudiandae laudantium doloribus quasi? Modi?
+                Libero voluptatem ipsum iure id porro repellendus sint voluptate itaque earum at dolores minima, ipsam
+                enim
+                alias natus, expedita odio rem fugiat pariatur accusamus? Ipsa ad a consequuntur sapiente
+                necessitatibus?
+                Facilis ipsum cum minus quo, corporis, ratione eaque, non quibusdam libero fugiat ullam a qui aliquid
+                vel?
+                Velit amet suscipit consectetur consequatur quaerat unde saepe illum. Molestiae aperiam illo ab.
+                Repellendus quae modi omnis eos. Iste quos cum nihil harum magnam qui dicta a unde! Sit sunt quaerat,
+                molestias veniam delectus ipsa eum consequatur inventore obcaecati consectetur iusto in labore.
+                Ullam dolore modi hic illo ad iure architecto! Rem magni vero quasi expedita laudantium assumenda sunt
+                ex ea
+                eveniet debitis. Porro id necessitatibus aliquid ad dolorum suscipit quas minima ipsa.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, accusantium.
+                Voluptatibus
+                hic, nihil voluptate itaque impedit, commodi doloremque laboriosam cupiditate expedita minima rem
+                quaerat
+                dolor, repudiandae laudantium doloribus quasi? Modi?
+                Libero voluptatem ipsum iure id porro repellendus sint voluptate itaque earum at dolores minima, ipsam
+                enim
+                alias natus, expedita odio rem fugiat pariatur accusamus? Ipsa ad a consequuntur sapiente
+                necessitatibus?
+                Facilis ipsum cum minus quo, corporis, ratione eaque, non quibusdam libero fugiat ullam a qui aliquid
+                vel?
+                Velit amet suscipit consectetur consequatur quaerat unde saepe illum. Molestiae aperiam illo ab.
+                Repellendus quae modi omnis eos. Iste quos cum nihil harum magnam qui dicta a unde! Sit sunt quaerat,
+                molestias veniam delectus ipsa eum consequatur inventore obcaecati consectetur iusto in labore.
+                Ullam dolore modi hic illo ad iure architecto! Rem magni vero quasi expedita laudantium assumenda sunt
+                ex ea
+                eveniet debitis. Porro id necessitatibus aliquid ad dolorum suscipit quas minima ipsa.</p>
+        </div>
     </div>
     <aside id="nav-container">
         <h3 id="tags-title">Tags</h3>

@@ -157,10 +157,11 @@ main p{
 
 #post-description{
     font-style: italic;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .post-page-content{
+    text-align: justify;
     line-height: 1.8;
     margin: 0.625rem 0;
 }
@@ -170,10 +171,16 @@ main p{
 }
 
 .img-container img{ 
-    width: 60%;
+    border-radius: 0.625rem;
+    width: 75%;
 }
 
 /* POST ASIDE */
+
+.nav-container{
+    grid-area: sidebar;
+}
+
 #tags-title, #categories-title{
     font-size: 1.5rem;
     margin-bottom: 0.625rem;
@@ -185,7 +192,7 @@ main p{
 }
 
 #tag-list, #categories-list{
-    list-style-type: none;   
+    list-style: none;   
 }
 
 #tag-list li, #categories-list li{
@@ -197,7 +204,7 @@ main p{
     transition: .5s;
 }
 
-#tag-list a, #categories-list a:hover{
+#tag-list a:hover, #categories-list a:hover{
     color: #000;
 }
 
@@ -217,4 +224,55 @@ footer{
     font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 1rem;
+}
+
+
+/*  MOBILE   */
+
+@media(max-width: 30rem){
+    /*  HOME   */
+    header{
+        width: 100%;
+    }
+
+    #logo{
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        left: 0;
+        width: 3.125rem;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    #title-container{
+        min-width: 100%;
+        margin-top: 1.25rem;       
+    }
+
+    #post-container{
+        margin-top: 1.25rem;
+    }
+
+    .post-box{
+        flex: 100% 1 0;
+        padding: 0.938rem;
+        margin: 0;
+    }
+
+        /*  POST PAGE   */
+    #post-page-container{
+        padding: 0.938rem;
+        grid-template-columns: 100%;
+        padding: .938rem;
+        grid-template-areas: "main" 
+        "sidebar";
+    }
+
+    .img-container img{
+        width: 100%;
+    }
+
 }
